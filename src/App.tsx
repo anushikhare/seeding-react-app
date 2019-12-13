@@ -4,11 +4,11 @@ import { Home } from './Home';
 
 function App() {
     return (
-        <div className="App">
-            <header className="App-header">
-                <p>
-        React App deployed to AWS S3 for seeding tool
-                </p>
+        <div className="app">
+            <header className="app-header">
+                <h1>
+                    Seeding tool
+                </h1>
             </header>
             <Home></Home>
         </div>
